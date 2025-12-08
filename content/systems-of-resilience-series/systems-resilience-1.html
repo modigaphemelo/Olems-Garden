@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 1: The Antifragile Mindset</title>
+    <meta name="description" content="Beyond robustness - you don't want to merely withstand chaos. You want to demand it. Antifragility is the property of systems that gain from volatility, shock, and stressors. Redefining resilience as a hunger for disorder.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+    <div class="scanlines"></div>
+    <div class="glow-effect"></div>
+
+    <div class="reading-progress">
+        <div class="reading-progress-fill"></div>
+    </div>
+
+    <button class="sidenav-toggle" id="sidenavToggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+
+        <nav class="sidenav" id="sidenav">
+            <div class="sidenav-header">
+                <h1>Olem's Garden</h1>
+                <p class="sidenav-subtitle">Thoughts & Systems</p>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="systems-of-resilience-series.html">Systems of Resilience</a></li>
+                <li><a href="systems-resilience-1.html" class="active">1: Antifragile Mindset</a></li>
+                <li><a href="systems-resilience-2.html">2: Mental Models</a></li>
+                <li><a href="systems-resilience-3.html">3: Emotional Durability</a></li>
+                <li><a href="systems-resilience-4.html">4: Habits in Chaos</a></li>
+                <li><a href="systems-resilience-5.html">5: Resilient Identity</a></li>
+                <li><a href="systems-resilience-6.html">6: Collective Resilience</a></li>
+            </ul>
+
+            <div class="sidenav-social">
+                <a href="https://github.com/modigaphemelo" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/olem_diga" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <main class="main-content">
+
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1>The Antifragile Mindset</h1>
+                    <p class="hero-subtitle">Beyond Robustness • Foundation Layer • Part 1 of Systems of Resilience Series</p>
+                    <div class="article-meta">
+                        <p><em>"What does not kill me makes me stranger, more adaptable, more dangerous."</em></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Content -->
+            <article class="content-section" style="max-width:900px; margin:0 auto;">
+
+                <!-- Opening Hook -->
+                <div class="article-section fade-in">
+                    <div class="simple-box" style="border-left:4px solid var(--accent);">
+                        <p style="font-size:1.1rem; font-style:italic;">
+                            You are not a rock weathering the storm. You are a blade being sharpened by it.<br>
+                            You are not a tree resisting the wind. You are a sail harnessing it.<br>
+                            You are not surviving the chaos. You are evolving through it.
+                        </p>
+                    </div>
+
+                    <p>The pursuit of stability is a modern superstition. We build careers on predictable ladders, relationships on comfortable patterns, lives on manageable routines. Then chaos arrives - uninvited, unwelcome - and our entire architecture trembles.</p>
+                    
+                    <p>This is not a failure of planning. It is a failure of <em>philosophy</em>.</p>
+
+                    <div class="note">
+                        <h4 style="text-align: center;"><i class="fas fa-exclamation-circle"></i> The Central Insight</h4><br>
+                        <p>Antifragility is not about being unbreakable. It's about being <strong>breakable in the right ways</strong> - about having fracture points that become sources of strength, weaknesses that transform into adaptive advantages, and failures that serve as evolutionary data.</p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Three States -->
+                <div class="article-section fade-in">
+                    <h3>The Three States of Being</h3>
+                    <p>Nassim Taleb's taxonomy gives us language for what warriors and philosophers have known for millennia:</p>
+
+                    <div class="comparison">
+                        <div class="comparison-item">
+                            <h4>Fragile</h4>
+                            <ul>
+                                <li><strong>Breaks under stress</strong></li>
+                                <li><strong>Seeks predictability</strong></li>
+                                <li><strong>Hides from volatility</strong></li>
+                                <li><strong>Goal: Avoid harm</strong></li>
+                                <li><strong>Metaphor: Porcelain vase</strong></li>
+                                <li><strong>Motto: "Safety first"</strong></li>
+                            </ul>
+                        </div>
+                        <div class="comparison-item">
+                            <h4>Robust</h4>
+                            <ul>
+                                <li><strong>Withstands stress</strong></li>
+                                <li><strong>Tolerates unpredictability</strong></li>
+                                <li><strong>Endures volatility</strong></li>
+                                <li><strong>Goal: Survive unchanged</strong></li>
+                                <li><strong>Metaphor: Oak tree</strong></li>
+                                <li><strong>Motto: "This too shall pass"</strong></li>
+                            </ul>
+                        </div>
+                        <div class="comparison-item">
+                            <h4>Antifragile</h4>
+                            <ul>
+                                <li><strong>Gains from stress</strong></li>
+                                <li><strong>Requires unpredictability</strong></li>
+                                <li><strong>Thrives on volatility</strong></li>
+                                <li><strong>Goal: Evolve through challenge</strong></li>
+                                <li><strong>Metaphor: Immune system</strong></li>
+                                <li><strong>Motto: "What doesn't kill me..."</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="simple-box">
+                        <h4 style="text-align: center;">The Critical Distinction</h4><br>
+                        <p>Most "resilience" training aims for robustness. This is insufficient. Robustness is static - it maintains. Antifragility is dynamic - it <em>advances</em>.</p>
+                        <p><strong>Robustness asks:</strong> "How can I endure this?"</p>
+                        <p><strong>Antifragility asks:</strong> "How can this make me stronger than before it happened?"</p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Nietzsche's Amor Fati -->
+                <div class="article-section fade-in">
+                    <h3>Nietzsche's <em>Amor Fati</em>: Loving What Breaks You</h3>
+                    <p>The will to stupidity was about deliberate limitation. <em>Amor Fati</em> (love of fate) is about deliberate embrace - not just acceptance, but <strong>active celebration</strong> of everything that happens, especially the painful parts.</p>
+
+                    <div class="quote-block">
+                        <p>"My formula for greatness in a human being is <em>amor fati</em>: that one wants nothing to be different, not forward, not backward, not in all eternity. Not merely bear what is necessary, still less conceal it… but <strong>love</strong> it."</p>
+                        <p class="quote-author">— Friedrich Nietzsche, <em>Ecce Homo</em></p>
+                    </div>
+
+                    <div class="characteristics">
+                        <div class="characteristic">
+                            <h4><i class="fas fa-heart"></i> Not Acceptance, But Need</h4>
+                            <p>The antifragile mindset doesn't just tolerate difficulty - it <em>requires</em> it. Like muscles needing resistance to grow, antifragile systems need disorder to evolve.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4><i class="fas fa-redo"></i> Retroactive Justification</h4>
+                            <p>Every past trauma, failure, and humiliation becomes necessary data in your evolution. Without those breaks, you would be weaker, less adaptable, less you.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4><i class="fas fa-fire"></i> The Forge Principle</h4>
+                            <p>Metal doesn't become a sword by being left alone. It becomes a sword by being heated, hammered, and quenched. Your character is forged the same way.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Counterargument Section -->
+                <div class="article-section fade-in">
+                    <h3>Counterarguments & Nuances</h3>
+                    
+                    <div class="counterargument-box">
+                        <h4><i class="fas fa-exclamation-triangle"></i> "Isn't this just toxic positivity?"</h4>
+                        <p><strong>No.</strong> Toxic positivity says "everything happens for a reason" and forces fake optimism. Antifragility says "everything that happens contains data and energy I can use." It's strategic, not sentimental.</p>
+                        <p>We're not ignoring pain. We're <em>processing</em> it into power. The difference is crucial.</p>
+                    </div>
+                    
+                    <div class="counterargument-box">
+                        <h4><i class="fas fa-heartbeat"></i> "What about trauma that doesn't lead to growth?"</h4>
+                        <p><strong>Valid concern.</strong> Not all breaks create growth. Some create scars. The antifragile approach includes:</p>
+                        <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                            <li>Pacing and dosage (small exposures build immunity)</li>
+                            <li>Integration before growth (process trauma before seeking lessons)</li>
+                            <li>External support when needed (therapy, community, rest)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="simple-box">
+                        <h4 style="text-align: center;"><i class="fas fa-balance-scale"></i> The Dosage Principle</h4><br>
+                        <p>Poison in small doses becomes medicine. Stress in small doses becomes strength. The key is <strong>controlled exposure</strong> - not avoiding all stress, not seeking overwhelming trauma, but finding the right dosage that strengthens without breaking.</p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Bruce Lee's Water Principle -->
+                <div class="article-section fade-in">
+                    <h3 >Bruce Lee's Water: The Antifragile Martial Art</h3>
+                    <p>Bruce Lee didn't create Jeet Kune Do as another rigid martial art. He created it as an <strong>antifragile fighting philosophy</strong>.</p>
+
+                    <div class="quote-block">
+                        <p>"Empty your mind. Be formless, shapeless - like water. Now you put water into a cup, it becomes the cup. You put water into a bottle, it becomes the bottle. You put it in a teapot, it becomes the teapot. Now water can flow, or it can crash. <strong>Be water, my friend.</strong>"</p>
+                        <p class="quote-author">— Bruce Lee</p>
+                    </div>
+
+                    <div class="comparison">
+                        <div class="comparison-item">
+                            <h4>Traditional Martial Arts (Robust)</h4>
+                            <ul>
+                                <li>Fixed forms and techniques</li>
+                                <li>Predictable patterns</li>
+                                <li>Defense as resistance</li>
+                                <li>Strength against strength</li>
+                                <li>Breaking the opponent's form</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-item">
+                            <h4>Jeet Kune Do (Antifragile)</h4>
+                            <ul>
+                                <li>Formless adaptability</li>
+                                <li>Using the opponent's energy</li>
+                                <li>Yielding as strength</li>
+                                <li>Absorbing and redirecting</li>
+                                <li>Becoming what the moment requires</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="simple-box">
+                        <p><strong>The Water Principle Applied:</strong> When life presses against you, don't press back. Don't merely withstand. <em>Flow around it, absorb its energy, and use its force as your own.</em> The obstacle becomes the path.</p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Itachi Paradox -->
+                <div class="article-section fade-in">
+                    <h3>The Itachi Paradox: Strength Through Burden</h3>
+                    <p>Itachi Uchiha carries perhaps the heaviest burden in modern storytelling - killing his entire clan to prevent war, becoming the most hated man in his village to save it, living as a villain to be a hero.</p>
+
+                    <div class="note">
+                        <h4 style="text-align: center;"><i class="fas fa-eye"></i> The Antifragile Villain</h4><br>
+                        <p>Itachi doesn't break under this burden. He <strong>weaponizes</strong> it. His trauma becomes his power source. His isolation becomes his clarity. His "evil" becomes his most effective tool for good.</p>
+                    </div>
+
+                    <div class="characteristics">
+                        <div class="characteristic">
+                            <h4>Burden as Fuel</h4>
+                            <p>What would destroy others becomes Itachi's energy source. His pain doesn't weaken him - it sharpens him.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4>Isolation as Perspective</h4>
+                            <p>Being outside all tribes gives him clearer vision than those inside any tribe.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4>Misunderstanding as Advantage</h4>
+                            <p>Being perceived as evil gives him freedom to act in ways "good" people cannot.</p>
+                        </div>
+                    </div>
+
+                    <div class="simple-box">
+                        <h4 style="text-align: center;"><i class="fas fa-question-circle"></i> Your Application</h4><br>
+                        <p>What burden are you carrying that you see as weakness? How might it actually be your hidden advantage? What "curse" might be your unique power source?</p>
+                        <p><strong>Exercise:</strong> Identify one "weakness" and list three ways it could be an advantage in certain contexts.</p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Antifragility Framework -->
+                <div class="article-section fade-in">
+                    <h3>The Four Pillars of Antifragility</h3>
+                    <p>A practical framework for cultivating antifragility across life domains:</p>
+
+                    <div class="framework-grid">
+                        <div class="framework-item">
+                            <div class="framework-icon">⚖️</div>
+                            <h4>Via Negativa</h4>
+                            <p><strong>Removing harmful elements</strong> is more effective than adding beneficial ones. Health comes from removing toxins, not just adding supplements.</p>
+                            <p><em>Ask: "What can I remove that's making me fragile?"</em></p>
+                        </div>
+                        <div class="framework-item">
+                            <div class="framework-icon">🏋️</div>
+                            <h4>Stress Inoculation</h4>
+                            <p><strong>Small, frequent exposures</strong> to manageable stress build immunity to larger stressors. Like vaccines for chaos.</p>
+                            <p><em>Ask: "What controlled stress can I seek today?"</em></p>
+                        </div>
+                        <div class="framework-item">
+                            <div class="framework-icon">🔄</div>
+                            <h4>Optionality</h4>
+                            <p><strong>Preserving choices</strong> creates asymmetric upside. Keep multiple paths open, especially when uncertainty is high.</p>
+                            <p><em>Ask: "What options am I closing prematurely?"</em></p>
+                        </div>
+                        <div class="framework-item">
+                            <div class="framework-icon">🎯</div>
+                            <h4>Skin in the Game</h4>
+                            <p><strong>Having something to lose</strong> forces adaptation. No risk, no learning. No exposure, no immunity.</p>
+                            <p><em>Ask: "Where am I playing too safe?"</em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Practical Framework -->
+                <div class="article-section fade-in">
+                    <h3>The Antifragility Installation Protocol</h3>
+                    <p>Moving from theory to practice - how to cultivate antifragility in daily life.</p>
+
+                    <div class="mastery-stages">
+                        <div class="mastery-stage">
+                            <div class="stage-header">
+                                <div class="stage-icon">1</div>
+                                <h4>Identify Your Fragilities</h4>
+                            </div>
+                            <div class="stage-description">
+                                <p><strong>Exercise:</strong> List 3 things that consistently break you - stressors that cause disproportionate collapse. Be specific: "When X happens, I tend to Y."</p>
+                                <p><strong>Antifragile reframe:</strong> "This is where I'm currently fragile. Therefore, this is where I have the most potential for growth."</p>
+                            </div>
+                        </div>
+                        <div class="mastery-stage">
+                            <div class="stage-header">
+                                <div class="stage-icon">2</div>
+                                <h4>Seek Controlled Exposure</h4>
+                            </div>
+                            <div class="stage-description">
+                                <p><strong>Exercise:</strong> Each week, voluntarily expose yourself to one small version of your fragility. If you fear rejection, seek one small "no." If you fear failure, attempt something with high likelihood of small failure.</p>
+                                <p><strong>Dose-response principle:</strong> Small, frequent exposures build immunity better than rare, large ones.</p>
+                            </div>
+                        </div>
+                        <div class="mastery-stage">
+                            <div class="stage-header">
+                                <div class="stage-icon">3</div>
+                                <h4>Implement Optionality</h4>
+                            </div>
+                            <div class="stage-description">
+                                <p><strong>Exercise:</strong> For every important plan, create 2-3 backup options with different assumptions. Don't just have a Plan B - have a Plan B, C, and D that thrive under different conditions.</p>
+                                <p><strong>Taleb's insight:</strong> "Optionality is the property of asymmetric upside with limited downside."</p>
+                            </div>
+                        </div>
+                        <div class="mastery-stage">
+                            <div class="stage-header">
+                                <div class="stage-icon">4</div>
+                                <h4>Cultivate <em>Amor Fati</em> Rituals</h4>
+                            </div>
+                            <div class="stage-description">
+                                <p><strong>Exercise:</strong> Daily, identify one thing that went "wrong" and practice saying: "I love that this happened because..." Find the hidden benefit, lesson, or strength gained.</p>
+                                <p><strong>Key:</strong> This isn't positive thinking. It's <em>strategic reinterpretation</em> - finding how the obstacle serves your evolution.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Barbell Strategy -->
+                <div class="article-section fade-in">
+                    <h3>The Barbell Strategy: Antifragile Risk Management</h3>
+                    <p>Taleb's most practical contribution: how to structure your life for antifragility.</p>
+
+                    <div class="simple-box">
+                        <h4 style="text-align:center;">The Barbell Explained</h4><br>
+                        <p>Place 85-90% of your resources in <strong>extremely safe</strong> areas (left side of barbell). Place 10-15% in <strong>extremely risky</strong> areas with unlimited upside (right side). <strong>Avoid the middle</strong> - moderately risky investments with limited upside.</p>
+                    </div>
+
+                    <div class="applications">
+                        <div class="application">
+                            <h4><i class="fas fa-briefcase"></i> Career Barbell</h4>
+                            <p><strong>Safe side:</strong> Stable job that pays bills. <strong>Risky side:</strong> Ambitious side project, learning risky skill, starting micro-business. <strong>Avoid:</strong> "Safe" corporate ladder with 2% annual raises.</p>
+                        </div>
+                        <div class="application">
+                            <h4><i class="fas fa-brain"></i> Learning Barbell</h4>
+                            <p><strong>Safe side:</strong> Deep mastery of one valuable skill. <strong>Risky side:</strong> Exploration of seemingly irrelevant fields. <strong>Avoid:</strong> Superficial knowledge of everything.</p>
+                        </div>
+                        <div class="application">
+                            <h4><i class="fas fa-users"></i> Social Barbell</h4>
+                            <p><strong>Safe side:</strong> Deep relationships with few trusted people. <strong>Risky side:</strong> Meeting diverse, challenging thinkers. <strong>Avoid:</strong> Large networks of casual acquaintances.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Growth Through Breaking Pattern -->
+                <div class="article-section fade-in">
+                    <h3>The Pattern: Growth Through Breaking</h3>
+                    <p>Antifragile systems don't just withstand breaks - they <em>require</em> them. Your bones heal stronger at fracture points. Your immune system learns from infections. Your psyche grows through trauma.</p>
+
+                    <div class="pattern-diagram">
+                        <div class="pattern-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Controlled Stress</h4>
+                                <p>Small, manageable challenge that pushes limits but doesn't overwhelm</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pattern-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Micro-Break</h4>
+                                <p>System temporarily breaks or falters at its weakest point</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pattern-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Healing Response</h4>
+                                <p>Body/mind initiates repair with additional resources</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pattern-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Overcompensation</h4>
+                                <p>System rebuilds stronger than before at the break point</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pattern-step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Expanded Capacity</h4>
+                                <p>System can now handle greater stress than before the break</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comparison">
+                        <div class="comparison-item">
+                            <h4>Fragile Pattern</h4>
+                            <ul>
+                                <li>Stress → Break</li>
+                                <li>Break → Weakness</li>
+                                <li>Weakness → Avoidance</li>
+                                <li>Avoidance → Greater fragility</li>
+                                <li><strong>Result:</strong> Shrinking world</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-item">
+                            <h4>Antifragile Pattern</h4>
+                            <ul>
+                                <li>Stress → Micro-break</li>
+                                <li>Micro-break → Healing response</li>
+                                <li>Healing → Strengthening</li>
+                                <li>Strengthening → Seeking challenge</li>
+                                <li><strong>Result:</strong> Expanding capacity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Resilience Metrics -->
+                <div class="article-section fade-in">
+                    <h3>Measuring Antifragility</h3>
+                    <p>How do you know you're becoming more antifragile? Track these metrics:</p>
+
+                    <div class="metrics-grid">
+                        <div class="metric-item">
+                            <div class="metric-value">↓ Recovery Time</div>
+                            <div class="metric-label">How quickly you bounce back from setbacks</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">↑ Option Generation</div>
+                            <div class="metric-label">Number of alternatives you see under stress</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">↑ Stress Tolerance</div>
+                            <div class="metric-label">Level of chaos you can handle before breaking</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">↑ Pattern Recognition</div>
+                            <div class="metric-label">Ability to see order in apparent disorder</div>
+                        </div>
+                    </div>
+
+                    <div class="simple-box">
+                        <h4><i class="fas fa-chart-line"></i> Weekly Tracking Exercise</h4>
+                        <p>Each Sunday, rate yourself (1-10) on:</p>
+                        <ol>
+                            <li><strong>Controlled exposure:</strong> Did I seek out manageable stress this week?</li>
+                            <li><strong>Amor fati practice:</strong> Did I find value in my "failures"?</li>
+                            <li><strong>Optionality preserved:</strong> Did I keep options open?</li>
+                            <li><strong>Recovery speed:</strong> How quickly did I bounce back from setbacks?</li>
+                        </ol>
+                        <p>Track these weekly. Notice patterns. Adjust your practices.</p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Antifragile Mantra -->
+                <div class="article-section fade-in">
+                    <h3>The Antifragile Mantra</h3>
+                    
+                    <div class="simple-box" style="text-align:center; padding:2rem;">
+                        <p style="font-size:1.1rem; font-style:italic; line-height:1.8;">
+                            Let me be broken in the right ways.<br>
+                            Let me fail in the right directions.<br>
+                            Let me carry burdens that become strengths.<br>
+                            Let chaos find me — and make me better.<br>
+                            Not despite the breaking,<br>
+                            but because of it.<br>
+                            Not to survive the fire,<br>
+                            but to be forged by it.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Navigation -->
+                <div class="navigation">
+                    <a href="systems-of-resilience-series.html" class="nav-link">
+                        ← Series Overview
+                    </a>
+                    <a href="systems-resilience-2.html" class="nav-link primary">
+                        Continue to Part 2: Mental Models for Volatility →
+                    </a>
+                </div>
+
+                <div class="progress">
+                    Part 1 of 6 • Systems of Resilience Series • Foundation Layer
+                </div>
+
+            </article>
+
+            <!-- Footer -->
+            <div class="simple-footer">
+                <p>Olem's Garden · 2026</p>
+                <p class="footer-subtext">Exploring tensions, synthesizing contradictions.</p>
+            </div>
+        </main>
+    </div>
+    
+    <script src="../../js/script.js"></script>
+</body>
+</html>

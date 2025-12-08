@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2: Mental Models for Volatility</title>
+    <meta name="description" content="When the ground shakes, most people look for stability. The resilient look for leverage. Building cognitive frameworks for navigating uncertainty: optionality thinking, inversion, redundancy as strength, and the barbell strategy.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+    <div class="scanlines"></div>
+    <div class="glow-effect"></div>
+
+    <div class="reading-progress">
+        <div class="reading-progress-fill"></div>
+    </div>
+
+    <button class="sidenav-toggle" id="sidenavToggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+
+        <nav class="sidenav" id="sidenav">
+            <div class="sidenav-header">
+                <h1>Olem's Garden</h1>
+                <p class="sidenav-subtitle">Thoughts & Systems</p>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="systems-of-resilience-series.html">Systems of Resilience</a></li>
+                <li><a href="systems-resilience-1.html">1: Antifragile Mindset</a></li>
+                <li><a href="systems-resilience-2.html" class="active">2: Mental Models</a></li>
+                <li><a href="systems-resilience-3.html">3: Emotional Durability</a></li>
+                <li><a href="systems-resilience-4.html">4: Habits in Chaos</a></li>
+                <li><a href="systems-resilience-5.html">5: Resilient Identity</a></li>
+                <li><a href="systems-resilience-6.html">6: Collective Resilience</a></li>
+            </ul>
+
+            <div class="sidenav-social">
+                <a href="https://github.com/modigaphemelo" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/olem_diga" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <main class="main-content">
+
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1>Mental Models for Volatility</h1>
+                    <p class="hero-subtitle">Thinking in Shocks • Foundation Layer • Part 2 of Systems of Resilience Series</p>
+                    <div class="article-meta">
+                        <p><em>"Do not pray for an easy life. Pray for the tools to handle a hard one."</em></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Content -->
+            <article class="content-section" style="max-width:900px; margin:0 auto;">
+
+                <!-- Opening Hook -->
+                <div class="article-section fade-in">
+                    <div class="simple-box" style="border-left:4px solid var(--accent);">
+                        <p style="font-size:1.1rem; font-style:italic;">
+                            Intelligence in calm waters is knowing the right answers.<br>
+                            Intelligence in storms is knowing which questions matter.<br>
+                            When volatility strikes, most minds seek shelter.<br>
+                            The antifragile mind seeks <em>leverage</em> - 
+                            the hidden pivot points where chaos becomes advantage.
+                        </p>
+                    </div>
+
+                    <p>In Part 1, we installed the antifragile operating system. Now we need applications - thinking tools specifically designed for navigating uncertainty. These mental models are not abstract theories; they are cognitive weapons forged in the fires of volatility.</p>
+                    
+                    <div class="note">
+                        <h4 style="text-align:center;"><i class="fas fa-tools"></i> The Toolbox Principle</h4><br>
+                        <p>A carpenter doesn't use one tool for all jobs. A resilient thinker doesn't use one thinking mode for all situations. These models are specialized tools for specific types of volatility.</p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Counterarguments -->
+                <div class="article-section fade-in">
+                    <h3>Counterarguments: When Models Fail</h3>
+                    
+                    <div class="counterargument-box">
+                        <h4><i class="fas fa-exclamation-triangle"></i> "Isn't this just overthinking?"</h4>
+                        <p><strong>No.</strong> Mental models are not about endless analysis. They're about <strong>pattern recognition</strong> under pressure. When chaos hits, these models become intuitive heuristics - not slow analysis, but fast recognition.</p>
+                        <p>The goal is to practice them in calm so they're automatic in storm.</p>
+                    </div>
+                    
+                    <div class="counterargument-box">
+                        <h4><i class="fas fa-brain"></i> "What about intuition and gut feelings?"</h4>
+                        <p><strong>Both are essential.</strong> Models give structure to intuition. Intuition gives context to models. The master thinker uses models to <em>test</em> intuition, not replace it.</p>
+                        <p>When your gut says one thing and the models say another - that's where deep insight lives.</p>
+                    </div>
+                    
+                    <div class="simple-box">
+                        <h4 style="text-align:center;"><i class="fas fa-balance-scale"></i> Model-Map Relationship</h4><br>
+                        <p>"The map is not the territory." These models are maps - imperfect, simplified, but useful. Don't confuse the model with reality. Use multiple maps (models) for the same territory.</p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Framework -->
+                <div class="article-section fade-in">
+                    <h3>The Five Volatility Lenses</h3>
+                    <p>Five ways of seeing that reveal hidden opportunities in chaos:</p>
+
+                    <div class="characteristics">
+                        <div class="characteristic">
+                            <h4><i class="fas fa-expand-arrows-alt"></i> 1. Optionality Vision</h4>
+                            <p>Seeing paths not taken, doors not yet opened, choices preserved for later.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4><i class="fas fa-undo"></i> 2. Inversion Sight</h4>
+                            <p>Seeing problems backward, solutions in reverse, success through avoiding failure.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4><i class="fas fa-layer-group"></i> 3. Redundancy Mapping</h4>
+                            <p>Seeing backup systems, alternative routes, parallel structures where others see waste.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4><i class="fas fa-chart-line"></i> 4. Convexity Detection</h4>
+                            <p>Seeing asymmetric payoffs - where upside dwarfs downside - invisible to linear thinking.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4><i class="fas fa-history"></i> 5. Lindy Perception</h4>
+                            <p>Seeing what survives chaos as inherently stronger, time as the ultimate stress test.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Model 1: Optionality Thinking -->
+                <div class="article-section fade-in">
+                    <div class="model-card">
+                        <div class="model-header">
+                            <div class="model-icon">🚪</div>
+                            <h3>Optionality Thinking: The Art of Preserving Choices</h3>
+                        </div>
+                        
+                        <div class="model-question">
+                            "What doors am I keeping open? What choices am I preserving for later?"
+                        </div>
+
+                        <div class="comparison">
+                            <div class="comparison-item">
+                                <h4>The Early Committer</h4>
+                                <ul>
+                                    <li>Chooses paths early</li>
+                                    <li>Values decisiveness</li>
+                                    <li>Closes doors deliberately</li>
+                                    <li>Seeks certainty</li>
+                                    <li><strong>Works in:</strong> Predictable environments</li>
+                                    <li><strong>Fails in:</strong> Volatile environments</li>
+                                </ul>
+                            </div>
+                            <div class="comparison-item">
+                                <h4>The Optionality Thinker</h4>
+                                <ul>
+                                    <li>Preserves choices</li>
+                                    <li>Values flexibility</li>
+                                    <li>Keeps doors ajar</li>
+                                    <li>Embraces uncertainty</li>
+                                    <li><strong>Works in:</strong> Volatile environments</li>
+                                    <li><strong>Fails in:</strong> Overly predictable ones</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="practice-exercise">
+                            <h4><i class="fas fa-pencil-alt"></i> Optionality Audit</h4>
+                            <p><strong>This week:</strong> List three important decisions you're facing. For each, identify:</p>
+                            <ol>
+                                <li>What doors would closing this option shut?</li>
+                                <li>How long can you reasonably keep this option open?</li>
+                                <li>What information would make this decision clearer?</li>
+                            </ol>
+                            <p><strong>Rule:</strong> Never close a door today that you can reasonably keep open until tomorrow.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Model 2: Inversion Thinking -->
+                <div class="article-section fade-in">
+                    <div class="model-card">
+                        <div class="model-header">
+                            <div class="model-icon">🔄</div>
+                            <h3>Inversion Thinking: Solving Backward</h3>
+                        </div>
+                        
+                        <div class="model-question">
+                            "What would guarantee failure? How can I systematically avoid those paths?"
+                        </div>
+
+                        <div class="quote-block">
+                            <p>"Invert, always invert. Turn a situation or problem upside down. Look at it backward. What happens if all our plans go wrong? What doesn't work that we think does?"</p>
+                            <p class="quote-author"> -  Carl Jacobi, mathematician</p>
+                        </div>
+
+                        <div class="characteristics">
+                            <div class="characteristic">
+                                <h4><i class="fas fa-shield-alt"></i> The Stoic Premeditation</h4>
+                                <p><em>Premeditatio Malorum</em> - premeditation of evils. By imagining the worst outcomes, you become antifragile to them. What you anticipate, you can navigate.</p>
+                            </div>
+                            <div class="characteristic">
+                                <h4><i class="fas fa-ban"></i> Via Negativa</h4>
+                                <p>Taleb's principle: In complex systems, removing harmful elements is more effective than adding beneficial ones. Health from removing toxins, not adding supplements.</p>
+                            </div>
+                            <div class="characteristic">
+                                <h4><i class="fas fa-chess-board"></i> Itachi's Backward Strategy</h4>
+                                <p>Itachi didn't plan to be a hero. He planned to be perceived as a villain - knowing that was the only path to his true goal. He solved from the endpoint backward.</p>
+                            </div>
+                        </div>
+
+                        <div class="practice-exercise">
+                            <h4><i class="fas fa-exclamation-triangle"></i> The Inversion Protocol</h4>
+                            <p><strong>For any goal X, ask:</strong></p>
+                            <ol>
+                                <li>What would guarantee I fail at X?</li>
+                                <li>What are the most silent, invisible failure modes?</li>
+                                <li>What assumptions am I making that could be catastrophically wrong?</li>
+                                <li>What would success look like if achieved through failure?</li>
+                            </ol>
+                            <p><strong>Weekly practice:</strong> Apply this to one project or goal each week.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Model 3: Redundancy as Strength -->
+                <div class="article-section fade-in">
+                    <div class="model-card">
+                        <div class="model-header">
+                            <div class="model-icon">🕸️</div>
+                            <h3>Redundancy as Strength: The Antifragile Paradox</h3>
+                        </div>
+                        
+                        <div class="model-question">
+                            "Where am I depending on single points of failure? What backups would cost little but save everything?"
+                        </div>
+
+                        <div class="simple-box">
+                            <h4>The Biological Mandate</h4>
+                            <p>Nature builds redundancy everywhere: two kidneys, two lungs, extra capacity in all systems. What looks inefficient in calm becomes essential in storm. Your life needs the same architecture.</p>
+                        </div>
+
+                        <div class="comparison">
+                            <div class="comparison-item">
+                                <h4>Efficiency Cult</h4>
+                                <ul>
+                                    <li>Eliminates all waste</li>
+                                    <li>Single points of failure</li>
+                                    <li>Just-in-time everything</li>
+                                    <li>Optimized for calm</li>
+                                    <li><strong>Breaks when:</strong> Any component fails</li>
+                                    <li><strong>Metaphor:</strong> House of cards</li>
+                                </ul>
+                            </div>
+                            <div class="comparison-item">
+                                <h4>Redundancy Mindset</h4>
+                                <ul>
+                                    <li>Embraces strategic waste</li>
+                                    <li>Multiple backup systems</li>
+                                    <li>Just-in-case buffers</li>
+                                    <li>Optimized for chaos</li>
+                                    <li><strong>Thrives when:</strong> Components fail</li>
+                                    <li><strong>Metaphor:</strong> Spiderweb</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="model-visual">
+                            <h4>🔄 Redundancy vs Efficiency</h4>
+                            <p><strong>In calm times:</strong> Redundancy looks like waste</p>
+                            <p><strong>In crisis:</strong> Redundancy becomes salvation</p>
+                            <p><strong>The antifragile insight:</strong> Optimize for crisis, not calm</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Model 4: Convexity Detection -->
+                <div class="article-section fade-in">
+                    <div class="model-card">
+                        <div class="model-header">
+                            <div class="model-icon">📈</div>
+                            <h3>Convexity Detection: Seeing Asymmetric Payoffs</h3>
+                        </div>
+                        
+                        <div class="model-question">
+                            "Where can I lose a little but gain a lot? Where are the hidden convex payoffs?"
+                        </div>
+
+                        <div class="simple-box">
+                            <h4>The Mathematical Elegance</h4>
+                            <p><strong>Convex (Antifragile):</strong> Small frequent losses, occasional huge wins. Examples: entrepreneurship, research, options trading.</p>
+                            <p><strong>Concave (Fragile):</strong> Small frequent wins, occasional catastrophic losses. Examples: corporate jobs, predictable investments.</p>
+                        </div>
+
+                        <div class="characteristics">
+                            <div class="comparison-item">
+                                <h4><i class="fas fa-arrow-up"></i> Convex Positions</h4>
+                                <ul>
+                                    <li>Limited, knowable downside</li>
+                                    <li>Unlimited, unknowable upside</li>
+                                    <li>Many small failures acceptable</li>
+                                    <li>One success pays for all</li>
+                                    <li><strong>Examples:</strong> Writing a book, starting a business, learning a valuable skill</li>
+                                </ul>
+                            </div>
+                            <div class="comparison-item">
+                                <h4><i class="fas fa-arrow-down"></i> Concave Traps</h4>
+                                <ul>
+                                    <li>Small probability of total loss</li>
+                                    <li>Capped, predictable upside</li>
+                                    <li>Steady small wins feel safe</li>
+                                    <li>One failure destroys everything</li>
+                                    <li><strong>Examples:</strong> Corporate ladder climbing, "safe" careers</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="practice-exercise">
+                            <h4><i class="fas fa-chart-bar"></i> Convexity Audit</h4>
+                            <p><strong>Analyze your current positions:</strong></p>
+                            <ol>
+                                <li>What's your current career's convexity profile?</li>
+                                <li>What relationships are convex (small investments, potentially huge returns)?</li>
+                                <li>What skills are you learning with convex payoff structures?</li>
+                                <li>Where are you stuck in concave traps that feel safe but aren't?</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Model 5: The Lindy Effect -->
+                <div class="article-section fade-in">
+                    <div class="model-card">
+                        <div class="model-header">
+                            <div class="model-icon">⏳</div>
+                            <h3>The Lindy Effect: Time as Stress Test</h3>
+                        </div>
+                        
+                        <div class="model-question">
+                            "What has survived centuries of chaos? What will still matter in 100 years?"
+                        </div>
+
+                        <div class="quote-block">
+                            <p>"For the perishable, every additional day in its life translates into a shorter additional life expectancy. For the nonperishable, every additional day may imply a longer life expectancy."</p>
+                            <p class="quote-author"> -  Nassim Taleb, <em>Antifragile</em></p>
+                        </div>
+
+                        <div class="comparison">
+                            <div class="comparison-item">
+                                <h4>Lindy Things (Antifragile)</h4>
+                                <ul>
+                                    <li>Classic literature</li>
+                                    <li>Fundamental mathematics</li>
+                                    <li>Stoic philosophy</li>
+                                    <li>Traditional recipes</li>
+                                    <li>Common law</li>
+                                    <li><strong>Property:</strong> Gets stronger with time</li>
+                                </ul>
+                            </div>
+                            <div class="comparison-item">
+                                <h4>Non-Lindy Things (Fragile)</h4>
+                                <ul>
+                                    <li>Tech startups</li>
+                                    <li>Diet fads</li>
+                                    <li>Management trends</li>
+                                    <li>Social media platforms</li>
+                                    <li>Celebrity opinions</li>
+                                    <li><strong>Property:</strong> Gets weaker with time</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="simple-box">
+                            <h4>Practical Lindy Applications</h4>
+                            <div class="applications">
+                                <div class="application">
+                                    <h5><i class="fas fa-graduation-cap"></i> Learn Lindy Skills</h5>
+                                    <p>Skills that have survived centuries: writing, arithmetic, persuasion, craftsmanship. Avoid skills tied to specific technologies.</p>
+                                </div>
+                                <div class="application">
+                                    <h5><i class="fas fa-piggy-bank"></i> Invest in Lindy Assets</h5>
+                                    <p>Books, land, timeless art, fundamental knowledge. These survive crashes, wars, and technological shifts.</p>
+                                </div>
+                                <div class="application">
+                                    <h5><i class="fas fa-handshake"></i> Build Lindy Relationships</h5>
+                                    <p>Relationships based on shared values survive. Relationships based on shared circumstances dissolve when circumstances change.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Integration Framework -->
+                <div class="article-section fade-in">
+                    <h3>The Mental Model Integration Matrix</h3>
+                    <p>How these models work together in volatile situations:</p>
+
+                    <table class="distinction-table">
+                        <thead>
+                            <tr>
+                                <th>Situation</th>
+                                <th>Primary Model</th>
+                                <th>Secondary Model</th>
+                                <th>Integration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Career Crisis</strong></td>
+                                <td>Optionality</td>
+                                <td>Convexity</td>
+                                <td>Preserve career paths while seeking convex opportunities</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Investment Decision</strong></td>
+                                <td>Convexity</td>
+                                <td>Lindy</td>
+                                <td>Seek convex payoffs in Lindy assets</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Relationship Stress</strong></td>
+                                <td>Redundancy</td>
+                                <td>Inversion</td>
+                                <td>Build social redundancy while eliminating failure modes</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Creative Block</strong></td>
+                                <td>Inversion</td>
+                                <td>Optionality</td>
+                                <td>Solve creative problems backward while preserving artistic choices</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Health Challenge</strong></td>
+                                <td>Redundancy</td>
+                                <td>Lindy</td>
+                                <td>Build health redundancies using time-tested practices</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Bruce Lee Connection -->
+                <div class="article-section fade-in">
+                    <h3>Bruce Lee's Mental Jeet Kune Do</h3>
+                    
+                    <div class="quote-block">
+                        <p>"Adapt what is useful, reject what is useless, and add what is specifically your own."</p>
+                        <p class="quote-author"> -  Bruce Lee</p>
+                    </div>
+
+                    <div class="simple-box">
+                        <h4 style="text-align: center;">No-Model as Ultimate Model</h4><br>
+                        <p>Bruce Lee didn't cling to Wing Chun or any other style. He absorbed principles from all styles, then created something uniquely his own. These mental models should be treated the same way:</p>
+                        <ul>
+                            <li><strong>Absorb the principles,</strong> not the prescriptions</li>
+                            <li><strong>Adapt them to your context,</strong> not force your context to them</li>
+                            <li><strong>Add your own insights</strong> born from your unique experiences</li>
+                            <li><strong>Discard what doesn't work</strong> in your specific volatility</li>
+                        </ul>
+                    </div>
+
+                    <div class="characteristics">
+                        <div class="characteristic">
+                            <h4><i class="fas fa-water"></i> Water-Like Thinking</h4>
+                            <p>Your thinking should be like water: taking the shape of the problem container. Sometimes that means optionality thinking. Sometimes inversion. Sometimes convexity detection.</p>
+                        </div>
+                        <div class="characteristic">
+                            <h4><i class="fas fa-fist-raised"></i> The One-Inch Punch</h4>
+                            <p>Maximum impact from minimal movement. These models are cognitive one-inch punches: small mental shifts that create disproportionate results.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Metrics Section -->
+                <div class="article-section fade-in">
+                    <h3>Measuring Mental Model Mastery</h3>
+                    <p>How do you know you're thinking more antifragilely?</p>
+
+                    <div class="metrics-grid">
+                        <div class="metric-item">
+                            <div class="metric-value">↑ Option Count</div>
+                            <div class="metric-label">Number of alternatives generated under pressure</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">↓ Decision Time</div>
+                            <div class="metric-label">Time to reach quality decisions in uncertainty</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">↑ Pattern Recognition</div>
+                            <div class="metric-label">Ability to see order in apparent chaos</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">↑ Model Integration</div>
+                            <div class="metric-label">Using multiple models for the same problem</div>
+                        </div>
+                    </div>
+
+                    <div class="practice-exercise">
+                        <h4 style="text-align: center;"><i class="fas fa-clipboard-check"></i> Weekly Model Practice</h4>
+                        <p><strong>Each week, focus on one model:</strong></p>
+                        <ol>
+                            <li><strong>Monday:</strong> Study the model principles</li>
+                            <li><strong>Tuesday-Thursday:</strong> Apply it to 3 different situations</li>
+                            <li><strong>Friday:</strong> Review what worked and what didn't</li>
+                            <li><strong>Weekend:</strong> Integrate insights with other models</li>
+                        </ol>
+                        <p><em>Rotate through the five models monthly.</em></p>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- The Itachi Application -->
+                <div class="article-section fade-in">
+                    <h3>Itachi's Cognitive Architecture</h3>
+                    <p>How Itachi applied these models in extreme volatility:</p>
+
+                    <div class="simple-box">
+                        <h4 style="text-align: center;">Itachi's Mental Model Stack</h4>
+                        <div class="integration-grid">
+                            <div class="integration-card">
+                                <div class="integration-icon">🚪</div>
+                                <h4>Optionality</h4>
+                                <p>Kept multiple paths open until necessity forced choice</p>
+                            </div>
+                            <div class="integration-card">
+                                <div class="integration-icon">🔄</div>
+                                <h4>Inversion</h4>
+                                <p>Planned backward from peace to necessary villainy</p>
+                            </div>
+                            <div class="integration-card">
+                                <div class="integration-icon">🕸️</div>
+                                <h4>Redundancy</h4>
+                                <p>Multiple identities, plans, and deception layers</p>
+                            </div>
+                            <div class="integration-card">
+                                <div class="integration-icon">📈</div>
+                                <h4>Convexity</h4>
+                                <p>Accepted pain for village peace - huge asymmetric payoff</p>
+                            </div>
+                            <div class="integration-card">
+                                <div class="integration-icon">⏳</div>
+                                <h4>Lindy</h4>
+                                <p>Used timeless principles: sacrifice, duty, family bonds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <!-- Navigation -->
+                <div class="navigation">
+                    <a href="systems-resilience-1.html" class="nav-link">
+                        ← Part 1: The Antifragile Mindset
+                    </a>
+                    <a href="systems-resilience-3.html" class="nav-link primary">
+                        Continue to Part 3: Emotional Durability →
+                    </a>
+                </div>
+
+                <div class="progress">
+                    Part 2 of 6 • Systems of Resilience Series • Foundation Layer
+                </div>
+
+            </article>
+
+            <!-- Footer -->
+            <div class="simple-footer">
+                <p>Olem's Garden · 2026</p>
+                <p class="footer-subtext">Exploring tensions, synthesizing contradictions.</p>
+            </div>
+        </main>
+    </div>
+    
+    <script src="../../js/script.js"></script>
+</body>
+</html>
