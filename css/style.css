@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 :root {
@@ -100,6 +100,8 @@ body {
 }
 
 .sidenav {
+    height: 100%;
+    height: 100vh;
     width: 240px;
     background-color: rgba(10, 10, 10, 0.98);
     padding: 2rem 1.25rem;
@@ -127,7 +129,7 @@ body {
 
 .sidenav-header h1 {
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1px;
     color: var(--accent);
     text-transform: uppercase;
@@ -151,12 +153,14 @@ body {
 }
 
 .nav-links li {
-    margin-bottom: 0.3rem;
+    margin: 0.25rem 0;
 }
 
 .nav-links a {
     display: block;
-    padding: 0.6rem 1rem;
+    padding: 0 1rem;
+    margin: 0 0.5rem;
+    border-radius: 6px;
     color: var(--text-secondary);
     text-decoration: none;
     font-size: 0.85rem;
@@ -228,7 +232,7 @@ body {
 .main-content {
     flex: 1;
     margin-left: 240px;
-    padding: 2.5rem 3.5rem;
+    padding: 2.5rem 2.5rem;
     width: calc(100% - 240px);
     position: relative;
 }
@@ -256,8 +260,7 @@ body {
 
 .hero-content h1 {
     font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 0.5rem;
+    font-weight: 600;
     color: var(--accent);
     letter-spacing: 1px;
 }
@@ -318,7 +321,6 @@ body {
 .characteristic,
 .case-study,
 .danger-card,
-.synthesis-item,
 .mastery-stage,
 .balance-item,
 .citation-block {
@@ -326,6 +328,19 @@ body {
     border: 1px solid rgba(0, 255, 255, 0.15);
     border-left: 3px solid var(--accent);
     text-align: center;
+    padding: 2.5rem;
+    border-radius: 6px;
+    margin: 1.75rem auto;
+    max-width: 800px;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.synthesis-item {
+    background: rgba(0, 255, 255, 0.03);
+    border: 1px solid rgba(0, 255, 255, 0.15);
+    border-left: 3px solid var(--accent);
     padding: 2.5rem;
     border-radius: 6px;
     margin: 1.75rem auto;
@@ -355,9 +370,9 @@ body {
 
 .danger-card,
 .note.warning {
-    border-left-color: var(--danger);
     background: rgba(255, 51, 102, 0.03);
     border-color: rgba(255, 51, 102, 0.15);
+    border-left-color: var(--danger);
 }
 
 .danger-card:hover,
@@ -426,6 +441,7 @@ body {
 .danger-card h4,
 .note.warning h4 {
     color: var(--danger);
+    text-align: center;
 }
 
 .special-box p,
@@ -445,6 +461,7 @@ body {
 
 .danger-card .danger-header {
     color: var(--danger);
+    text-align: center;
 }
 
 .danger-card .danger-item strong {
@@ -457,6 +474,9 @@ body {
     text-decoration: none;
     font-size: 0.9rem;
     transition: var(--transition);
+    padding:0.5rem 1rem;
+    border:1px solid var(--border);
+    border-radius:4px;
 }
 
 .simple-link:hover {
@@ -651,17 +671,12 @@ body {
     margin-right: auto;
 }
 
-.nav-link {
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 0.95rem;
-}
-
-.nav-link.primary {
+.nav-link-primary {
     background: var(--accent);
     color: var(--bg-primary);
     padding: 0.6rem 1.25rem;
     border-radius: 6px;
+    text-decoration: none;
 }
 
 .progress {
@@ -704,7 +719,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .part-content h4 {
@@ -783,7 +798,7 @@ body {
 }
 
 .danger-header {
-    display: flex;
+
     align-items: center;
     margin-bottom: 1.25rem;
     color: var(--danger);
